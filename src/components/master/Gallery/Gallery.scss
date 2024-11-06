@@ -1,0 +1,22 @@
+.edit-gallery-section{
+  .image-section{
+    img{
+      border-radius: 10px;
+    }
+    .remove-image-icon{
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #b20e0e;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

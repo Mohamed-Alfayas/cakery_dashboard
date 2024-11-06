@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f3f3f3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.width-100 {
+  width: 100%;
+}
+
+
+.app-dashboard * {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fitness-login {
+  background-image: url(assets/img/login-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.smitch-top-icon {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.Toastify__toast {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.header-row {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+.preloader-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb66;
+  z-index: 9999;
+}
+
+.preloader-section img {
+  max-width: 500px;
+}
+
+.user-icon{
+  padding:5px !important;
+  font-size: 16px !important;
+}
+.user-icon:hover{
+  border-radius: 10px;
+  padding:5px
+}
+
+.user-icon img{
+  width: 100%;
+  height: auto;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
+}
+.mr-2{
+  margin-right: 0.5rem;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+  margin-right: auto;
+}

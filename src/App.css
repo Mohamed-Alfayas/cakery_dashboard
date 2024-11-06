@@ -1,0 +1,199 @@
+@import url('./assets/css/fonts.css');
+
+.App {
+  text-align: center;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header,
+.App-footer {
+  border: 2px solid #f3f5f8;
+  background: linear-gradient(45deg, #5fd795, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.App-footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.offcanvas-end {
+  width: 40% !important;
+}
+
+.dt-table-container,
+.offcanvas-body,
+.ScrollDesign {
+  scrollbar-width: thin;
+  /* scrollbar-height: thin; */
+  scrollbar-color: #2f7aaf #ffffff;
+}
+
+.dt-table-container::-webkit-scrollbar,
+.offcanvas-body::-webkit-scrollbar,
+.ScrollDesign::-webkit-scrollbar {
+  width: 10px;
+  height:5px;
+}
+
+.dt-table-container::-webkit-scrollbar-track,
+.offcanvas-body::-webkit-scrollbar-track,
+.ScrollDesign::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.dt-table-container::-webkit-scrollbar-thumb,
+.offcanvas-body::-webkit-scrollbar-thumb,
+.ScrollDesign::-webkit-scrollbar-thumb {
+  background-color: #2f7aaf;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.dt-table-container::-webkit-scrollbar-thumb:hover,
+.offcanvas-body::-webkit-scrollbar-thumb:hover,
+.ScrollDesign::-webkit-scrollbar-thumb:hover {
+  background-color: #6b5ec9;
+}
+/*  */
+
+.component-heading{
+  font-size: 20px;
+  text-align: left;
+  color: #025087;
+  font-weight: 600;
+}
+.dt-table{
+  border: 1px solid #d3d3d3;
+  border-radius: 10px !important;
+}
+
+.dt-table-container {
+
+  .rdt_TableHead {
+    .rdt_TableCol {
+      background-color: #006ebb;
+      color: #fffefe;
+      font-weight: 500 !important;
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4){
+        padding: 10px;
+        text-align: start;
+        justify-content: left;
+      }
+
+
+      &:nth-child(1){
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+      }
+
+    }
+  }
+
+  .rdt_TableBody {
+    .rdt_TableRow {
+      &:nth-child(odd) {
+        background-color: #fafafa;
+
+        .rdt_TableCell {
+          background-color: #fafafa;
+          border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+          font-weight: 600;
+        }
+      }
+
+      &:nth-child(even) {
+        background-color: #fff;
+
+        .rdt_TableCell {
+          background-color: #fff;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+          font-weight: 600;
+        }
+      }
+    }
+
+    .rdt_TableRow {
+      .rdt_TableCell {
+
+        
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          padding: 10px;
+          text-align: start;
+          justify-content: left;
+        }
+
+        &:nth-child(1){
+          padding: 10px;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.offcanvas .offcanvas-header {
+  background: linear-gradient(45deg, #006ebb, #d3def2);
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.MuiInputLabel-formControl{
+  font-weight: 500 !important;
+}
+
+.table-fab-buttons{
+  border-radius: 5px !important;
+  width: 35px !important;
+  height: 35px !important;
+  z-index: 1 !important;
+}

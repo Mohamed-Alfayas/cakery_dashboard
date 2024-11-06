@@ -1,0 +1,131 @@
+.customer-info,
+.address-info {
+    h4 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 14px;
+        color: rgb(99, 99, 99);
+        margin-bottom: 0;
+    }
+}
+
+.top-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: darkred;
+}
+.edit-status-card{
+    box-shadow: 0px 0px 10px #a09a9a;
+
+}
+
+.order-info-card {
+
+    box-shadow: 0px 0px 10px #a09a9a;
+    padding: 1rem;
+
+    .delivery-status{
+        max-width: fit-content;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    .order-id {
+        font-size: 18px;
+        font-weight: 700;
+        color: darkred;
+    }
+
+    .address-info,
+    .customer-info {
+        h3 {
+            font-size: 15px;
+            color: darkred;
+            font-weight: 700;
+        }
+
+        h4 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-left: 1.5rem;
+        }
+
+        p {
+            font-size: 14px;
+            color: rgb(99, 99, 99);
+            margin-bottom: 0;
+            margin-left: 1.5rem;
+        }
+    }
+
+}
+
+.order-items {
+    margin-top: 1rem;
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+        color: darkred;
+        margin-bottom: 0.5rem;
+    }
+    .item {
+        margin: 1rem 0;
+        box-shadow: 0px 0px 10px #a09a9a;
+        padding: 1rem;
+        border-radius: 10px;
+
+        .item-info {
+            display: flex;
+            justify-content: space-between;
+
+            .cake-info {
+                display: flex;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-right: 10px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                h5 {
+                    font-size: 14px;
+                    color: #a09a9a;
+                }
+            }
+
+            .qty-info {
+                h4 {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+    .occasion-info {
+        margin-top: 1rem;
+        text-align: center;
+        .greeting-text{
+            font-weight: 600;
+            border-radius: 6px;
+            width: 100%;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 0px;
+            font-weight: 600;
+        }
+    }
+
+}

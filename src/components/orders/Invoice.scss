@@ -1,0 +1,80 @@
+.invoice-section{
+
+  .bill-header{
+    text-align: center;
+    border-bottom: 2px dashed;
+    padding-bottom: 1rem;
+    img{
+      width: 65px;
+    }
+    .company-name{
+      font-size: 20px;
+      font-weight: 800;
+    }
+    .address,
+    .phone,
+    .email
+    {
+      font-size: 14px;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+    .bill-details {
+  
+      padding: 1rem 0;  
+      .order-details {  
+        border-bottom: 2px dashed;
+        padding-bottom: 0.5rem;  
+        p {
+          margin-bottom: 0.5rem;
+          font-weight: 500;
+          font-size: 14px;
+  
+          &.invoice-id {
+            font-weight: 700;
+            font-size: 16px;
+          }
+        }
+      }
+      .customer-details{
+        padding: 1rem 0;  
+        border-bottom: 2px dashed;
+        padding-bottom: 0.5rem;  
+
+        h4{
+          font-size: 18px;
+          font-weight: 700;
+        }
+        p {
+          margin-bottom: 0.5rem;
+          font-weight: 500;
+          font-size: 14px;
+  
+          &.customer-name {
+            font-weight: 700;
+            font-size: 16px;
+          }
+        }
+      }
+  
+    }
+}
+
+@media print {
+  #root, .offcanvas-header {
+    display: none;
+  }
+  .offcanvas{
+    visibility: hidden;
+  }
+  .offcanvas-body{
+    visibility: visible !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .invoice-section.card{
+    border: none !important;
+  }
+}

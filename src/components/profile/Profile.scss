@@ -1,0 +1,78 @@
+.profile-page{
+  padding-top:20px;
+  padding-bottom:20px;
+  .card{
+    padding: 10px;
+    height: 100%;
+  }
+  
+  .detail-info{
+    text-align: start;
+    p{
+      font-size: 14px;
+      span{
+        display: block;
+        margin-left:10px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.permission-pages-list{
+  display: flex;
+  justify-content: space-between;
+}
+.profile-page {
+
+  .profile-info {
+    .premium-modal {
+      padding: 0.5rem;
+      box-shadow: 1px 1px 10px #c7c7c7;
+      border: none;
+    }
+
+    p{
+      text-align: left;
+      margin-bottom: 0px;
+    }
+
+    .info {
+      display: flex;
+      justify-content: flex-start;
+
+      .user-avatar {
+        height: 45px;
+        width: 45px;
+
+        img {
+          height: auto;
+        }
+      }
+
+      .icon-button {
+        background-color: #f3f3f9;
+        height: 45px;
+        width: 45px;
+        margin-right: 10px;
+      }
+
+      .content-section {
+        p {
+          margin-bottom: 2px;
+
+          &.title {
+            font-size: 13px;
+            color: #878a99;
+          }
+
+          &.value {
+            font-size: 15px;
+            color: #28084b;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

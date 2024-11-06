@@ -1,0 +1,21 @@
+.access-denied {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &>div
+  {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .access-denied-banner {
+    max-width: 100%;
+    width: 100%;
+  }
+  p{
+    font-size: 18px;
+  }
+}
